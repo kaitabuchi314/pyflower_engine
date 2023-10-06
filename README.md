@@ -2,6 +2,7 @@
 This engine is open-source under the GNU license. It will use pygame and Tkinter. Plus maybe Box2D. It will be also be mainly 2D.
 
 <b><mark>Setup</mark></b>:
+
 <b>Visual Studio Code:</b>
 Clone the repo with `git clone https://github.com/kaitabuchi314/pyflower_engine.git`.
 Then, install python from https://python.org. Then open the folder in VSCode. You should be able to use the built in debugger.
