@@ -11,9 +11,10 @@ class Window:
         if resizable:
             self.screen = pygame.display.set_mode((width, height), pygame.RESIZABLE)
         else:
-            self.screen = pygame.display.set_mode((width, height), pygame.RESIZABLE)
+            self.screen = pygame.display.set_mode((width, height))
     
     def render_background(self):
         self.screen.fill(self.bgcolor)
+        
     def end_frame(self):
-        pygame.display.update()
+        pygame.display.flip()
