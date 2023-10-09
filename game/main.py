@@ -1,9 +1,14 @@
 import pygame
-
+from pyflower.gameobject import GameObject
+from pyflower.vector2 import Vector2
+from pyflower.spriterenderer import SpriteComponent
 import pyflower.window
 import pyflower.globals
 
 window = pyflower.window.Window(960, 540, (pyflower.globals.LIGHT_BLUE), "logo.png", True)
+
+o = GameObject(Vector2(0,0))
+o.AddComponent(SpriteComponent(object, "logo.png", window))
 
 running = True
 while (running):
@@ -18,4 +23,5 @@ while (running):
                 window.bgcolor = pyflower.globals.LIGHT_BLUE
             
     window.render_background()
+    o.update()
     window.end_frame()
