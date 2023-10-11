@@ -4,6 +4,8 @@ This engine is open-source under the GNU license. It will use pygame and Tkinter
 <b><mark>Setup</mark></b>:
 Clone the repo with `git clone https://github.com/kaitabuchi314/pyflower_engine.git`. You need to install python from https://python.org. 
 Also, in a terminal, type `pip3 install pygame`.
+
+
 <b>Visual Studio Code:</b>
 Clone the repo with `git clone https://github.com/kaitabuchi314/pyflower_engine.git`.
 Then, install python from https://python.org. Then open the folder in VSCode. You should be able to use the built in debugger.
